@@ -1,0 +1,76 @@
+    1  sudo su
+    2  su -
+    3  su - root
+    4  cd
+    5  history
+    6  su root
+    7  su -
+    8  sudo su
+    9  sudo visudo
+   10  su -
+   11  sudo apt update
+   12  sudo apt-get install wget gpg
+   13  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+   14  sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+   15  sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+   16  rm -f packages.microsoft.gpg
+   17  sudo apt install apt-transport-https
+   18  sudo apt update
+   19  sudo apt install code
+   20  ls
+   21  cd Documents/
+   22  ls
+   23  mkdir python-app
+   24  cd python-app/
+   25  code .
+   26  python3 -V
+   27  pip3 -V
+   28  sudo apt install python3 python3-pip build-essential python3-dev
+   29  python3 -V
+   30  pip3 -V
+   31  sudo pip3 install -r requirements.txt
+   32  python3 app.py 
+   33  sudo pip3 install -r requirements.txt
+   34  python3 app.py 
+   35  sudo pip3 install flask
+   36  python3 app.py 
+   37  sudo python3 app.py 
+   38  history > commands.txt
+    1  sudo su
+    2  su -
+    3  su - root
+    4  cd
+    5  history
+    6  su root
+    7  su -
+    8  sudo su
+    9  sudo visudo
+   10  su -
+   11  sudo apt update
+   12  sudo apt-get install wget gpg
+   13  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+   14  sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+   15  sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+   16  rm -f packages.microsoft.gpg
+   17  sudo apt install apt-transport-https
+   18  sudo apt update
+   19  sudo apt install code
+   20  ls
+   21  cd Documents/
+   22  ls
+   23  mkdir python-app
+   24  cd python-app/
+   25  code .
+   26  curl http://localhost:81
+   27  sudo apt install curl
+   28  curl http://localhost:81
+   29  curl http://localhost:81/ping
+   30  curl http://localhost:81/hello
+   31  curl http://localhost:81/ping
+   32  curl http://localhost:81/hello
+   33  curl http://localhost:81/ping
+   34  curl http://localhost:81/
+   35  history
+   36  cd Documents/python-app/
+   37  history
+   38  history >> commands.txt 
