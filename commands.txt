@@ -74,3 +74,25 @@
    36  cd Documents/python-app/
    37  history
    38  history >> commands.txt 
+   38  history > commands.txt
+   39  ls
+   40  history
+   41  git -V
+   42  git --version
+   43  git remote -V
+   44  git init
+   45  git status
+   46  git add .
+   47  git status
+   48  git commit -m "python flask app"
+   49  git log
+   50  git remote -V
+   51  git remote -v
+   52  git log
+   53  git branch -M main
+   54  git log
+   55  git remote add origin https://github.com/mir-owahed/python-flask-app.git
+   56  git remote -v
+   57  git push -u origin main
+   58  history
+mir@ubuntu22-vbox:~/Documents/python-app$
