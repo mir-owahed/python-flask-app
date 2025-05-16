@@ -4,6 +4,7 @@ git clone https://github.com/mir-owahed/python-flask-app.git
 cd python-flask-app/
 code .
 uv venv
+source .venv/bin/activate
 
 uv init
 uv add flask
