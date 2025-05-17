@@ -1,4 +1,4 @@
-## Run this app using UV
+## Run python app using UV
 ```
 git clone https://github.com/mir-owahed/python-flask-app.git
 cd python-flask-app/
