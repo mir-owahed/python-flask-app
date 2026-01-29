@@ -15,3 +15,7 @@ uv run app.py
 python3 -V
 pip3 -V
 ```
+```
+curl http://localhost:8181
+curl http://localhost:8181/ping
+```
