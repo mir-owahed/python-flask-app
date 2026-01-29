@@ -34,6 +34,8 @@ Creating virtual environment at: .venv
 Activate with: source .venv/bin/activate
 mir@DESKTOP-JASRD4A:~/fastapi-project$ source .venv/bin/activate
 (fastapi-project) mir@DESKTOP-JASRD4A:~/fastapi-project$ uv pip install "fastapi[standard]"
+or
+uv pip install -r requirements.txt
 (fastapi-project) mir@DESKTOP-JASRD4A:~/fastapi-project$ uv run fastapi dev main.py
 
 ```
@@ -46,3 +48,4 @@ http://localhost:8000/redoc
 curl http://localhost:8000/
 
 ```
+Ref: <https://fastapi.tiangolo.com/tutorial/first-steps/>
