@@ -14,6 +14,7 @@ uv run app.py
 
 python3 -V
 pip3 -V
+which python3
 ```
 ```
 curl http://localhost:8181
